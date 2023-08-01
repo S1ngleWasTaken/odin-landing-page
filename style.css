@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section{
+    background-color: #1F2937;
+}
+
+.container{
+    width: 80vw;
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+}
+.nav-list li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #caced5;
+}
+
+
+
+.welcome-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 0;
+}
+
+.welcome-section img{
+    height: 25rem;
+}
+.welcome-section__content{
+    width: 50%;
+}
+.welcome-section__content h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+.welcome-section__content p{
+    font-size: 18px;
+    color: #caced5;
+}
+.sign-up-btn1{
+    width: 8rem;
+    height: 2rem;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 0.5rem;
+    color: #F9FAF8;
+    font-size: 18px;
+}
